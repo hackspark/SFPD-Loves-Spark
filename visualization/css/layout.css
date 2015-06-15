@@ -1,0 +1,230 @@
+body{
+	background-image: url("../images/sfmap.png");
+	background-size: 660px 660px;
+	background-repeat: no-repeat;
+	width: 660px;
+	height: 660px;
+	z-index: -1;
+
+}
+#outside{
+	position: absolute;
+	margin-left:700px;
+}
+#allDiv{
+	/*background-color: rgb(0,255,0);*/
+	position: static;
+	left: 0px;
+	top: 0px;
+	width: 595px;
+	height: 595px;
+	z-index: 0;
+}
+.orange{
+	position: absolute;
+	width: 25px;
+    height: 25px;
+    background-color: rgba(237,104,47,0);
+    border-style: double;
+    border-color: rgb(255,255,255);
+    
+}
+table {
+    width: 600px;
+}
+
+#row1 {position: absolute;margin-left:0px;margin-top: 0px;width: 50px;height: 650px;background-color: rgba(255,255,0,0);}
+#row2 {position: absolute;margin-left:50px;margin-top: 0px;width: 50px;height: 650px;background-color: rgba(255,255,0,0);}
+#row3 {position: absolute;margin-left:100px;margin-top: 0px;width: 50px;height: 650px;background-color: rgba(255,255,0,0);}
+#row4 {position: absolute;margin-left:150px;margin-top: 0px;width: 50px;height: 650px;background-color: rgba(255,255,0,0);}
+#row5 {position: absolute;margin-left:200px;margin-top: 0px;width: 50px;height: 650px;background-color: rgba(255,255,0,0);}
+#row6 {position: absolute;margin-left:250px;margin-top: 0px;width: 50px;height: 650px;background-color: rgba(255,255,0,0);}
+#row7 {position: absolute;margin-left:300px;margin-top: 0px;width: 50px;height: 650px;background-color: rgba(255,255,0,0);}
+#row8 {position: absolute;margin-left:350px;margin-top: 0px;width: 50px;height: 650px;background-color: rgba(255,255,0,0);}
+#row9 {position: absolute;margin-left:400px;margin-top: 0px;width: 50px;height: 650px;background-color: rgba(255,255,0,0);}
+#row10 {position: absolute;margin-left:450px;margin-top: 0px;width:50px;height: 650px;background-color: rgba(255,255,0,0);}
+#row11 {position: absolute;margin-left:500px;margin-top: 0px;width: 50px;height: 650px;background-color: rgba(255,255,0,0);}
+#row12 {position: absolute;margin-left:550px;margin-top: 0px;width: 50px;height: 650px;background-color: rgba(255,255,0,0);}
+#row13 {position: absolute;margin-left:600px;margin-top: 0px;width: 50px;height: 650px;background-color: rgba(255,255,0,0);}
+
+#row1 #c1{position: absolute;margin-left:0px;margin-top: 0px;width: 45px;height: 45px;background-color: rgba(255,0,0,0);}
+#row1 #c2{position: absolute;margin-left:0px;margin-top: 50px;width: 45px;height: 45px;background-color: rgba(255,0,0,0);}
+#row1 #c3{position: absolute;margin-left:0px;margin-top: 100px;width: 45px;height: 45px;background-color: rgba(255,0,0,0);}
+#row1 #c4{position: absolute;margin-left:0px;margin-top: 150px;width: 45px;height: 45px;background-color: rgba(255,0,0,0);}
+#row1 #c5{position: absolute;margin-left:0px;margin-top: 200px;width: 45px;height: 45px;background-color: rgba(255,0,0,0);}
+#row1 #c6{position: absolute;margin-left:0px;margin-top: 250px;width: 45px;height: 45px;background-color: rgba(255,0,0,0);}
+#row1 #c7{position: absolute;margin-left:0px;margin-top: 300px;width: 45px;height: 45px;background-color: rgba(255,0,0,0);}
+#row1 #c8{position: absolute;margin-left:0px;margin-top: 350px;width: 45px;height: 45px;background-color: rgba(255,0,0,0);}
+#row1 #c9{position: absolute;margin-left:0px;margin-top: 400px;width: 45px;height: 45px;background-color: rgba(255,0,0,0);}
+#row1 #c10{position: absolute;margin-left:0px;margin-top: 450px;width: 45px;height: 45px;background-color: rgba(255,0,0,0);}
+#row1 #c11{position: absolute;margin-left:0px;margin-top: 500px;width: 45px;height: 45px;background-color: rgba(255,0,0,0);}
+#row1 #c12{position: absolute;margin-left:0px;margin-top: 550px;width: 45px;height: 45px;background-color: rgba(255,0,0,0);}
+#row1 #c13{position: absolute;margin-left:0px;margin-top: 600px;width: 45px;height: 45px;background-color: rgba(255,0,0,0);}
+
+#row2 #c1{position: absolute;margin-left:0px;margin-top: 0px;width: 45px;height: 45px;background-color: rgba(255,0,0,0);}
+#row2 #c2{position: absolute;margin-left:0px;margin-top: 50px;width: 45px;height: 45px;background-color: rgba(255,0,0,0);}
+#row2 #c3{position: absolute;margin-left:0px;margin-top: 100px;width: 45px;height: 45px;background-color: rgba(255,0,0,0);}
+#row2 #c4{position: absolute;margin-left:0px;margin-top: 150px;width: 45px;height: 45px;background-color: rgba(255,0,0,0);}
+#row2 #c5{position: absolute;margin-left:0px;margin-top: 200px;width: 45px;height: 45px;background-color: rgba(255,0,0,0);}
+#row2 #c6{position: absolute;margin-left:0px;margin-top: 250px;width: 45px;height: 45px;background-color: rgba(255,0,0,0);}
+#row2 #c7{position: absolute;margin-left:0px;margin-top: 300px;width: 45px;height: 45px;background-color: rgba(255,0,0,0);}
+#row2 #c8{position: absolute;margin-left:0px;margin-top: 350px;width: 45px;height: 45px;background-color: rgba(255,0,0,0);}
+#row2 #c9{position: absolute;margin-left:0px;margin-top: 400px;width: 45px;height: 45px;background-color: rgba(255,0,0,0);}
+#row2 #c10{position: absolute;margin-left:0px;margin-top: 450px;width: 45px;height: 45px;background-color: rgba(255,0,0,0);}
+#row2 #c11{position: absolute;margin-left:0px;margin-top: 500px;width: 45px;height: 45px;background-color: rgba(255,0,0,0);}
+#row2 #c12{position: absolute;margin-left:0px;margin-top: 550px;width: 45px;height: 45px;background-color: rgba(255,0,0,0);}
+#row2 #c13{position: absolute;margin-left:0px;margin-top: 600px;width: 45px;height: 45px;background-color: rgba(255,0,0,0);}
+
+#row3 #c1{position: absolute;margin-left:0px;margin-top: 0px;width: 45px;height: 45px;background-color: rgba(255,0,0,0);}
+#row3 #c2{position: absolute;margin-left:0px;margin-top: 50px;width: 45px;height: 45px;background-color: rgba(255,0,0,0);}
+#row3 #c3{position: absolute;margin-left:0px;margin-top: 100px;width: 45px;height: 45px;background-color: rgba(255,0,0,0);}
+#row3 #c4{position: absolute;margin-left:0px;margin-top: 150px;width: 45px;height: 45px;background-color: rgba(255,0,0,0);}
+#row3 #c5{position: absolute;margin-left:0px;margin-top: 200px;width: 45px;height: 45px;background-color: rgba(255,0,0,0);}
+#row3 #c6{position: absolute;margin-left:0px;margin-top: 250px;width: 45px;height: 45px;background-color: rgba(255,0,0,0);}
+#row3 #c7{position: absolute;margin-left:0px;margin-top: 300px;width: 45px;height: 45px;background-color: rgba(255,0,0,0);}
+#row3 #c8{position: absolute;margin-left:0px;margin-top: 350px;width: 45px;height: 45px;background-color: rgba(255,0,0,0);}
+#row3 #c9{position: absolute;margin-left:0px;margin-top: 400px;width: 45px;height: 45px;background-color: rgba(255,0,0,0);}
+#row3 #c10{position: absolute;margin-left:0px;margin-top: 450px;width: 45px;height: 45px;background-color: rgba(255,0,0,0);}
+#row3 #c11{position: absolute;margin-left:0px;margin-top: 500px;width: 45px;height: 45px;background-color: rgba(255,0,0,0);}
+#row3 #c12{position: absolute;margin-left:0px;margin-top: 550px;width: 45px;height: 45px;background-color: rgba(255,0,0,0);}
+#row3 #c13{position: absolute;margin-left:0px;margin-top: 600px;width: 45px;height: 45px;background-color: rgba(255,0,0,0);}
+
+#row4 #c1{position: absolute;margin-left:0px;margin-top: 0px;width: 45px;height: 45px;background-color: rgba(255,0,0,0);}
+#row4 #c2{position: absolute;margin-left:0px;margin-top: 50px;width: 45px;height: 45px;background-color: rgba(255,0,0,0);}
+#row4 #c3{position: absolute;margin-left:0px;margin-top: 100px;width: 45px;height: 45px;background-color: rgba(255,0,0,0);}
+#row4 #c4{position: absolute;margin-left:0px;margin-top: 150px;width: 45px;height: 45px;background-color: rgba(255,0,0,0);}
+#row4 #c5{position: absolute;margin-left:0px;margin-top: 200px;width: 45px;height: 45px;background-color: rgba(255,0,0,0);}
+#row4 #c6{position: absolute;margin-left:0px;margin-top: 250px;width: 45px;height: 45px;background-color: rgba(255,0,0,0);}
+#row4 #c7{position: absolute;margin-left:0px;margin-top: 300px;width: 45px;height: 45px;background-color: rgba(255,0,0,0);}
+#row4 #c8{position: absolute;margin-left:0px;margin-top: 350px;width: 45px;height: 45px;background-color: rgba(255,0,0,0);}
+#row4 #c9{position: absolute;margin-left:0px;margin-top: 400px;width: 45px;height: 45px;background-color: rgba(255,0,0,0);}
+#row4 #c10{position: absolute;margin-left:0px;margin-top: 450px;width: 45px;height: 45px;background-color: rgba(255,0,0,0);}
+#row4 #c11{position: absolute;margin-left:0px;margin-top: 500px;width: 45px;height: 45px;background-color: rgba(255,0,0,0);}
+#row4 #c12{position: absolute;margin-left:0px;margin-top: 550px;width: 45px;height: 45px;background-color: rgba(255,0,0,0);}
+#row4 #c13{position: absolute;margin-left:0px;margin-top: 600px;width: 45px;height: 45px;background-color: rgba(255,0,0,0);}
+
+#row5 #c1{position: absolute;margin-left:0px;margin-top: 0px;width: 45px;height: 45px;background-color: rgba(255,0,0,0);}
+#row5 #c2{position: absolute;margin-left:0px;margin-top: 50px;width: 45px;height: 45px;background-color: rgba(255,0,0,0);}
+#row5 #c3{position: absolute;margin-left:0px;margin-top: 100px;width: 45px;height: 45px;background-color: rgba(255,0,0,0);}
+#row5 #c4{position: absolute;margin-left:0px;margin-top: 150px;width: 45px;height: 45px;background-color: rgba(255,0,0,0);}
+#row5 #c5{position: absolute;margin-left:0px;margin-top: 200px;width: 45px;height: 45px;background-color: rgba(255,0,0,0);}
+#row5 #c6{position: absolute;margin-left:0px;margin-top: 250px;width: 45px;height: 45px;background-color: rgba(255,0,0,0);}
+#row5 #c7{position: absolute;margin-left:0px;margin-top: 300px;width: 45px;height: 45px;background-color: rgba(255,0,0,0);}
+#row5 #c8{position: absolute;margin-left:0px;margin-top: 350px;width: 45px;height: 45px;background-color: rgba(255,0,0,0);}
+#row5 #c9{position: absolute;margin-left:0px;margin-top: 400px;width: 45px;height: 45px;background-color: rgba(255,0,0,0);}
+#row5 #c10{position: absolute;margin-left:0px;margin-top: 450px;width: 45px;height: 45px;background-color: rgba(255,0,0,0);}
+#row5 #c11{position: absolute;margin-left:0px;margin-top: 500px;width: 45px;height: 45px;background-color: rgba(255,0,0,0);}
+#row5 #c12{position: absolute;margin-left:0px;margin-top: 550px;width: 45px;height: 45px;background-color: rgba(255,0,0,0);}
+#row5 #c13{position: absolute;margin-left:0px;margin-top: 600px;width: 45px;height: 45px;background-color: rgba(255,0,0,0);}
+
+#row6 #c1{position: absolute;margin-left:0px;margin-top: 0px;width: 45px;height: 45px;background-color: rgba(255,0,0,0);}
+#row6 #c2{position: absolute;margin-left:0px;margin-top: 50px;width: 45px;height: 45px;background-color: rgba(255,0,0,0);}
+#row6 #c3{position: absolute;margin-left:0px;margin-top: 100px;width: 45px;height: 45px;background-color: rgba(255,0,0,0);}
+#row6 #c4{position: absolute;margin-left:0px;margin-top: 150px;width: 45px;height: 45px;background-color: rgba(255,0,0,0);}
+#row6 #c5{position: absolute;margin-left:0px;margin-top: 200px;width: 45px;height: 45px;background-color: rgba(255,0,0,0);}
+#row6 #c6{position: absolute;margin-left:0px;margin-top: 250px;width: 45px;height: 45px;background-color: rgba(255,0,0,0);}
+#row6 #c7{position: absolute;margin-left:0px;margin-top: 300px;width: 45px;height: 45px;background-color: rgba(255,0,0,0);}
+#row6 #c8{position: absolute;margin-left:0px;margin-top: 350px;width: 45px;height: 45px;background-color: rgba(255,0,0,0);}
+#row6 #c9{position: absolute;margin-left:0px;margin-top: 400px;width: 45px;height: 45px;background-color: rgba(255,0,0,0);}
+#row6 #c10{position: absolute;margin-left:0px;margin-top: 450px;width: 45px;height: 45px;background-color: rgba(255,0,0,0);}
+#row6 #c11{position: absolute;margin-left:0px;margin-top: 500px;width: 45px;height: 45px;background-color: rgba(255,0,0,0);}
+#row6 #c12{position: absolute;margin-left:0px;margin-top: 550px;width: 45px;height: 45px;background-color: rgba(255,0,0,0);}
+#row6 #c13{position: absolute;margin-left:0px;margin-top: 600px;width: 45px;height: 45px;background-color: rgba(255,0,0,0);}
+
+#row7 #c1{position: absolute;margin-left:0px;margin-top: 0px;width: 45px;height: 45px;background-color: rgba(255,0,0,0);}
+#row7 #c2{position: absolute;margin-left:0px;margin-top: 50px;width: 45px;height: 45px;background-color: rgba(255,0,0,0);}
+#row7 #c3{position: absolute;margin-left:0px;margin-top: 100px;width: 45px;height: 45px;background-color: rgba(255,0,0,0);}
+#row7 #c4{position: absolute;margin-left:0px;margin-top: 150px;width: 45px;height: 45px;background-color: rgba(255,0,0,0);}
+#row7 #c5{position: absolute;margin-left:0px;margin-top: 200px;width: 45px;height: 45px;background-color: rgba(255,0,0,0);}
+#row7 #c6{position: absolute;margin-left:0px;margin-top: 250px;width: 45px;height: 45px;background-color: rgba(255,0,0,0);}
+#row7 #c7{position: absolute;margin-left:0px;margin-top: 300px;width: 45px;height: 45px;background-color: rgba(255,0,0,0);}
+#row7 #c8{position: absolute;margin-left:0px;margin-top: 350px;width: 45px;height: 45px;background-color: rgba(255,0,0,0);}
+#row7 #c9{position: absolute;margin-left:0px;margin-top: 400px;width: 45px;height: 45px;background-color: rgba(255,0,0,0);}
+#row7 #c10{position: absolute;margin-left:0px;margin-top: 450px;width: 45px;height: 45px;background-color: rgba(255,0,0,0);}
+#row7 #c11{position: absolute;margin-left:0px;margin-top: 500px;width: 45px;height: 45px;background-color: rgba(255,0,0,0);}
+#row7 #c12{position: absolute;margin-left:0px;margin-top: 550px;width: 45px;height: 45px;background-color: rgba(255,0,0,0);}
+#row7 #c13{position: absolute;margin-left:0px;margin-top: 600px;width: 45px;height: 45px;background-color: rgba(255,0,0,0);}
+
+#row8 #c1{position: absolute;margin-left:0px;margin-top: 0px;width: 45px;height: 45px;background-color: rgba(255,0,0,0);}
+#row8 #c2{position: absolute;margin-left:0px;margin-top: 50px;width: 45px;height: 45px;background-color: rgba(255,0,0,0);}
+#row8 #c3{position: absolute;margin-left:0px;margin-top: 100px;width: 45px;height: 45px;background-color: rgba(255,0,0,0);}
+#row8 #c4{position: absolute;margin-left:0px;margin-top: 150px;width: 45px;height: 45px;background-color: rgba(255,0,0,0);}
+#row8 #c5{position: absolute;margin-left:0px;margin-top: 200px;width: 45px;height: 45px;background-color: rgba(255,0,0,0);}
+#row8 #c6{position: absolute;margin-left:0px;margin-top: 250px;width: 45px;height: 45px;background-color: rgba(255,0,0,0);}
+#row8 #c7{position: absolute;margin-left:0px;margin-top: 300px;width: 45px;height: 45px;background-color: rgba(255,0,0,0);}
+#row8 #c8{position: absolute;margin-left:0px;margin-top: 350px;width: 45px;height: 45px;background-color: rgba(255,0,0,0);}
+#row8 #c9{position: absolute;margin-left:0px;margin-top: 400px;width: 45px;height: 45px;background-color: rgba(255,0,0,0);}
+#row8 #c10{position: absolute;margin-left:0px;margin-top: 450px;width: 45px;height: 45px;background-color: rgba(255,0,0,0);}
+#row8 #c11{position: absolute;margin-left:0px;margin-top: 500px;width: 45px;height: 45px;background-color: rgba(255,0,0,0);}
+#row8 #c12{position: absolute;margin-left:0px;margin-top: 550px;width: 45px;height: 45px;background-color: rgba(255,0,0,0);}
+#row8 #c13{position: absolute;margin-left:0px;margin-top: 600px;width: 45px;height: 45px;background-color: rgba(255,0,0,0);}
+
+#row9 #c1{position: absolute;margin-left:0px;margin-top: 0px;width: 45px;height: 45px;background-color: rgba(255,0,0,0);}
+#row9 #c2{position: absolute;margin-left:0px;margin-top: 50px;width: 45px;height: 45px;background-color: rgba(255,0,0,0);}
+#row9 #c3{position: absolute;margin-left:0px;margin-top: 100px;width: 45px;height: 45px;background-color: rgba(255,0,0,0);}
+#row9 #c4{position: absolute;margin-left:0px;margin-top: 150px;width: 45px;height: 45px;background-color: rgba(255,0,0,0);}
+#row9 #c5{position: absolute;margin-left:0px;margin-top: 200px;width: 45px;height: 45px;background-color: rgba(255,0,0,0);}
+#row9 #c6{position: absolute;margin-left:0px;margin-top: 250px;width: 45px;height: 45px;background-color: rgba(255,0,0,0);}
+#row9 #c7{position: absolute;margin-left:0px;margin-top: 300px;width: 45px;height: 45px;background-color: rgba(255,0,0,0);}
+#row9 #c8{position: absolute;margin-left:0px;margin-top: 350px;width: 45px;height: 45px;background-color: rgba(255,0,0,0);}
+#row9 #c9{position: absolute;margin-left:0px;margin-top: 400px;width: 45px;height: 45px;background-color: rgba(255,0,0,0);}
+#row9 #c10{position: absolute;margin-left:0px;margin-top: 450px;width: 45px;height: 45px;background-color: rgba(255,0,0,0);}
+#row9 #c11{position: absolute;margin-left:0px;margin-top: 500px;width: 45px;height: 45px;background-color: rgba(255,0,0,0);}
+#row9 #c12{position: absolute;margin-left:0px;margin-top: 550px;width: 45px;height: 45px;background-color: rgba(255,0,0,0);}
+#row9 #c13{position: absolute;margin-left:0px;margin-top: 600px;width: 45px;height: 45px;background-color: rgba(255,0,0,0);}
+
+#row10 #c1{position: absolute;margin-left:0px;margin-top: 0px;width: 45px;height: 45px;background-color: rgba(255,0,0,0);}
+#row10 #c2{position: absolute;margin-left:0px;margin-top: 50px;width: 45px;height: 45px;background-color: rgba(255,0,0,0);}
+#row10 #c3{position: absolute;margin-left:0px;margin-top: 100px;width: 45px;height: 45px;background-color: rgba(255,0,0,0);}
+#row10 #c4{position: absolute;margin-left:0px;margin-top: 150px;width: 45px;height: 45px;background-color: rgba(255,0,0,0);}
+#row10 #c5{position: absolute;margin-left:0px;margin-top: 200px;width: 45px;height: 45px;background-color: rgba(255,0,0,0);}
+#row10 #c6{position: absolute;margin-left:0px;margin-top: 250px;width: 45px;height: 45px;background-color: rgba(255,0,0,0);}
+#row10 #c7{position: absolute;margin-left:0px;margin-top: 300px;width: 45px;height: 45px;background-color: rgba(255,0,0,0);}
+#row10 #c8{position: absolute;margin-left:0px;margin-top: 350px;width: 45px;height: 45px;background-color: rgba(255,0,0,0);}
+#row10 #c9{position: absolute;margin-left:0px;margin-top: 400px;width: 45px;height: 45px;background-color: rgba(255,0,0,0);}
+#row10 #c10{position: absolute;margin-left:0px;margin-top: 450px;width: 45px;height: 45px;background-color: rgba(255,0,0,0);}
+#row10 #c11{position: absolute;margin-left:0px;margin-top: 500px;width: 45px;height: 45px;background-color: rgba(255,0,0,0);}
+#row10 #c12{position: absolute;margin-left:0px;margin-top: 550px;width: 45px;height: 45px;background-color: rgba(255,0,0,0);}
+#row10 #c13{position: absolute;margin-left:0px;margin-top: 600px;width: 45px;height: 45px;background-color: rgba(255,0,0,0);}
+
+#row11 #c1{position: absolute;margin-left:0px;margin-top: 0px;width: 45px;height: 45px;background-color: rgba(255,0,0,0);}
+#row11 #c2{position: absolute;margin-left:0px;margin-top: 50px;width: 45px;height: 45px;background-color: rgba(255,0,0,0);}
+#row11 #c3{position: absolute;margin-left:0px;margin-top: 100px;width: 45px;height: 45px;background-color: rgba(255,0,0,0);}
+#row11 #c4{position: absolute;margin-left:0px;margin-top: 150px;width: 45px;height: 45px;background-color: rgba(255,0,0,0);}
+#row11 #c5{position: absolute;margin-left:0px;margin-top: 200px;width: 45px;height: 45px;background-color: rgba(255,0,0,0);}
+#row11 #c6{position: absolute;margin-left:0px;margin-top: 250px;width: 45px;height: 45px;background-color: rgba(255,0,0,0);}
+#row11 #c7{position: absolute;margin-left:0px;margin-top: 300px;width: 45px;height: 45px;background-color: rgba(255,0,0,0);}
+#row11 #c8{position: absolute;margin-left:0px;margin-top: 350px;width: 45px;height: 45px;background-color: rgba(255,0,0,0);}
+#row11 #c9{position: absolute;margin-left:0px;margin-top: 400px;width: 45px;height: 45px;background-color: rgba(255,0,0,0);}
+#row11 #c10{position: absolute;margin-left:0px;margin-top: 450px;width: 45px;height: 45px;background-color: rgba(255,0,0,0);}
+#row11 #c11{position: absolute;margin-left:0px;margin-top: 500px;width: 45px;height: 45px;background-color: rgba(255,0,0,0);}
+#row11 #c12{position: absolute;margin-left:0px;margin-top: 550px;width: 45px;height: 45px;background-color: rgba(255,0,0,0);}
+#row11 #c13{position: absolute;margin-left:0px;margin-top: 600px;width: 45px;height: 45px;background-color: rgba(255,0,0,0);}
+
+#row12 #c1{position: absolute;margin-left:0px;margin-top: 0px;width: 45px;height: 45px;background-color: rgba(255,0,0,0);}
+#row12 #c2{position: absolute;margin-left:0px;margin-top: 50px;width: 45px;height: 45px;background-color: rgba(255,0,0,0);}
+#row12 #c3{position: absolute;margin-left:0px;margin-top: 100px;width: 45px;height: 45px;background-color: rgba(255,0,0,0);}
+#row12 #c4{position: absolute;margin-left:0px;margin-top: 150px;width: 45px;height: 45px;background-color: rgba(255,0,0,0);}
+#row12 #c5{position: absolute;margin-left:0px;margin-top: 200px;width: 45px;height: 45px;background-color: rgba(255,0,0,0);}
+#row12 #c6{position: absolute;margin-left:0px;margin-top: 250px;width: 45px;height: 45px;background-color: rgba(255,0,0,0);}
+#row12 #c7{position: absolute;margin-left:0px;margin-top: 300px;width: 45px;height: 45px;background-color: rgba(255,0,0,0);}
+#row12 #c8{position: absolute;margin-left:0px;margin-top: 350px;width: 45px;height: 45px;background-color: rgba(255,0,0,0);}
+#row12 #c9{position: absolute;margin-left:0px;margin-top: 400px;width: 45px;height: 45px;background-color: rgba(255,0,0,0);}
+#row12 #c10{position: absolute;margin-left:0px;margin-top: 450px;width: 45px;height: 45px;background-color: rgba(255,0,0,0);}
+#row12 #c11{position: absolute;margin-left:0px;margin-top: 500px;width: 45px;height: 45px;background-color: rgba(255,0,0,0);}
+#row12 #c12{position: absolute;margin-left:0px;margin-top: 550px;width: 45px;height: 45px;background-color: rgba(255,0,0,0);}
+#row12 #c13{position: absolute;margin-left:0px;margin-top: 600px;width: 45px;height: 45px;background-color: rgba(255,0,0,0);}
+
+#row13 #c1{position: absolute;margin-left:0px;margin-top: 0px;width: 45px;height: 45px;background-color: rgba(255,0,0,0);}
+#row13 #c2{position: absolute;margin-left:0px;margin-top: 50px;width: 45px;height: 45px;background-color: rgba(255,0,0,0);}
+#row13 #c3{position: absolute;margin-left:0px;margin-top: 100px;width: 45px;height: 45px;background-color: rgba(255,0,0,0);}
+#row13 #c4{position: absolute;margin-left:0px;margin-top: 150px;width: 45px;height: 45px;background-color: rgba(255,0,0,0);}
+#row13 #c5{position: absolute;margin-left:0px;margin-top: 200px;width: 45px;height: 45px;background-color: rgba(255,0,0,0);}
+#row13 #c6{position: absolute;margin-left:0px;margin-top: 250px;width: 45px;height: 45px;background-color: rgba(255,0,0,0);}
+#row13 #c7{position: absolute;margin-left:0px;margin-top: 300px;width: 45px;height: 45px;background-color: rgba(255,0,0,0);}
+#row13 #c8{position: absolute;margin-left:0px;margin-top: 350px;width: 45px;height: 45px;background-color: rgba(255,0,0,0);}
+#row13 #c9{position: absolute;margin-left:0px;margin-top: 400px;width: 45px;height: 45px;background-color: rgba(255,0,0,0);}
+#row13 #c10{position: absolute;margin-left:0px;margin-top: 450px;width: 45px;height: 45px;background-color: rgba(255,0,0,0);}
+#row13 #c11{position: absolute;margin-left:0px;margin-top: 500px;width: 45px;height: 45px;background-color: rgba(255,0,0,0);}
+#row13 #c12{position: absolute;margin-left:0px;margin-top: 550px;width: 45px;height: 45px;background-color: rgba(255,0,0,0);}
+#row13 #c13{position: absolute;margin-left:0px;margin-top: 600px;width: 45px;height: 45px;background-color: rgba(255,0,0,0);}
