@@ -7,8 +7,7 @@ Rares Vernica, Nimish Kulkarni, KC La
 
 ![Smart Police](https://farm8.staticflickr.com/7046/6800885274_8039ebc41e_b.jpg)
 
-![SF Crime](http://cdn.thebolditalic.com/paperclip/html_images/38625/images/orig
-inal/sfmap.gif?1425322418)
+![SF Crime](http://cdn.thebolditalic.com/paperclip/html_images/38625/images/original/sfmap.gif?1425322418)
 
 https://data.sfgov.org/Public-Safety/SFPD-Incidents-from-1-January-2003/tmnf-
 yvry
